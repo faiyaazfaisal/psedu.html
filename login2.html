@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <script src="https://kit.fontawesome.com/f44a09925a.js" crossorigin="anonymous"></script>
+    <style>
+        .login-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        nav a{
+            text-decoration: none;
+            margin-left: 10px;
+            color: black;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+        }
+
+        .login-form input {
+            margin-top: 20px;
+            font-size: 20px;
+            padding: 5px 10px;
+        }
+
+        .login-form input[type="submit"] {
+            background-color: blueviolet;
+            border-radius: 5px;
+            border: none;
+            color: yellowgreen;
+            font-weight: 700;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span>
+                <a href="">Home</a>
+            <a href="">Dashboard</a>
+            <a href="">Inventory</a>
+            </span>
+            <span>
+                <a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                <a href=""><i class="fa-solid fa-user"></i></a>
+            </span>
+        </nav>
+    </header>
+    <section class="login-container">
+
+        <form class="login-form">
+            <h2>Please login</h2>
+            <input type="email" name="" id="" placeholder="Your email" required>
+            <input type="password" name="" id="" placeholder="Your Password" required>
+            <input type="submit" value="login">
+        </form>
+    </section>
+</body>
+
+</html>
